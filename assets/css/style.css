@@ -101,11 +101,16 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 #discord img {
   height: fit-content;
   width: 100%;
+  border-radius: 1rem;
 }
 
 #discord a {
   background: #ffb517;
   color: white;
+  font-size: 24px;
+}
+
+#discord p {
   font-size: 24px;
 }
 
@@ -146,6 +151,28 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   color: #4fcfff;
 }
 
+#roadmap img {
+  left: 0;
+  top: 4rem;
+}
+
+#roadmap #blueline {
+  height: 100%;
+  z-index: -1;
+}
+#roadmap #blueline > div {
+  background: #a1e4f4;
+  width: 4rem;
+  height: 100%;
+}
+
+#roadmap ul {
+  list-style: none;
+  background: #ffb517;
+  gap: 1rem;
+  border-radius: 2rem;
+}
+
 #roadmap #items {
   width: 100%;
   gap: 2rem;
@@ -169,8 +196,8 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    #roadmap #items {
-        width: 45%;
-      }
+  #roadmap #items {
+    width: 45%;
+  }
 }
 /* roadmap : end */
