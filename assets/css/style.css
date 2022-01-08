@@ -27,6 +27,7 @@
 
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   background-color: #71bcff !important;
+  font-size: 22px;
 }
 
 .align-items-center.d-flex.navbar-brand {
@@ -138,3 +139,36 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   /*  */
 }
 /* discord : end */
+
+/* roadmap : start */
+#roadmap span {
+  font-size: 60px;
+  color: #4fcfff;
+}
+
+#roadmap #items {
+  width: 100%;
+  gap: 2rem;
+  margin-top: 4rem;
+  z-index: 1;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #roadmap #items {
+    width: 60%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #roadmap #items {
+        width: 45%;
+      }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /*  */
+}
+/* roadmap : end */
