@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "beachday";
+  src: url("../fonts/beachday.ttf");
+}
+
+@font-face {
+  font-family: "gilroy-extrabold";
+  src: url("../fonts/gilroy-extrabold.otf");
+}
+
+@font-face {
+  font-family: "gilroy-light";
+  src: url("../fonts/gilroy-light.otf");
+}
+
+.font-beachday {
+  font-family: "beachday";
+}
+
+.font-gilroy-extrabold {
+  font-family: "gilroy-extrabold";
+}
+
+.font-gilroy-light {
+  font-family: "gilroy-light";
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  background-color: #71bcff !important;
+}
+
+.align-items-center.d-flex.navbar-brand {
+  gap: 0.5rem;
+}
+
+/* jumbotron : start */
+.jumbotron-banana {
+  width: 4rem;
+}
+
+.jumbotron-hero {
+  width: 10rem;
+}
+
+#jumbotron {
+  gap: 5rem;
+  overflow: hidden;
+  min-height: 12rem;
+}
+
+#jumbotron span {
+  font-size: 25px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .jumbotron-hero {
+    width: 15rem;
+  }
+
+  .jumbotron-banana {
+    width: 5rem;
+  }
+
+  #jumbotron {
+    min-height: 17rem;
+  }
+
+  #jumbotron span {
+    font-size: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron-hero {
+    width: 21rem;
+  }
+
+  .jumbotron-banana {
+    width: 7rem;
+  }
+
+  #jumbotron {
+    min-height: 23rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #jumbotron {
+    gap: 25rem;
+  }
+}
+
+/* jumbotron : end */
